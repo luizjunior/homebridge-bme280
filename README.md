@@ -14,13 +14,8 @@ to use [bme280](https://www.npmjs.com/package/bme280), which has a full implemen
 
 ## Installation
 1.	Install Homebridge using `npm install -g homebridge`
-2.	Install this plugin `npm install -g @iainfarq/homebridge-bme280`
+2.	Install this plugin `npm install -g homebridge-bme280advanced`
 3.	Update your configuration file - see below for an example
-
-(As of homebridge version 0.4.50, scoped packages like this one are not fully supported.  You need to edit this packages `package.json` file and change
-the "name" property from "@iainfarq/homebridge" to "homebridge", and then set a softlink inside the node_modules directory. )
-
-Use `ln -s @iainfarq/homebridge-bme280 homebridge-bme280` for best results..
 
 Follow the excellent directions in the [bme280](https://www.npmjs.com/package/bme280) package to connect the device to the I2C bus.
 
