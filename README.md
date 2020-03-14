@@ -1,4 +1,4 @@
-# homebridge-bme280
+# homebridge-bme280advanced
 
 [Bosch BME280](https://www.bosch-sensortec.com/bst/products/all_products/bme280)
 temperature/humidity/barometric pressure sensor service plugin for [Homebridge](https://github.com/nfarina/homebridge).
